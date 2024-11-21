@@ -7,7 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/',
   build: {
-    outDir: 'build', // Ensure this matches your Netlify publish directory
+    outDir: 'dist', // Output directory for the build
   },
 });
